@@ -1,7 +1,7 @@
 /* ========= DEFAULT =========*/
 html,
 body {
-    background-color: #e1e1e1;
+    background-color: #fff;
 }
 
 .bg-pattern {
@@ -16,27 +16,27 @@ h3,
 h4,
 h5,
 h6 {
-    color: #3C4858;
+    color: #02020B;
     font-family: Georgia, serif;
 }
 
 .gray-1 {
-    color: #3C4858;
+    color: #D22C20;
 }
 
 .post-title {
     font-size: 1.4rem;
-    color: #3C4858;
+    color: #02020B;
 }
 
 .post-title a:hover {
-    color: #3C4858;
+    color: #02020B;
 }
 
 .primary-font {
     font-size: 1.125rem;
     line-height: 2rem;
-    color: #37383a;
+    color: #02020B;
     font-family: Georgia, serif;
 }
 
@@ -44,7 +44,7 @@ h6 {
 
 /* ===*** POST CARD ***=== */
 .post-card {
-  background-color: #fff;
+  background-color: #F7FAFB;;
   padding: 1rem;
   margin: 1rem;
   border-radius: 12px;
@@ -60,7 +60,7 @@ h6 {
 .post-card .post-info {
     height: 62%;
     padding: 15px;
-    border: 1px solid rgba(0, 0, 0, 0.125);
+    border: 1px solid rgba(0, 0, 0, 0.525);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -73,7 +73,7 @@ h6 {
   align-items: center;
   margin-top: 1rem;
   font-size: 0.9rem;
-  color: #5c5c5c; /* softer gray so it's visible but not dominant */
+  color: #02020B; /* softer gray so it's visible but not dominant */
 }
 
 .post-footer a {
