@@ -712,3 +712,13 @@ textarea.input-control { height: unset !important;
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+/* Minimal styles for results panel to avoid dependency on extra CSS */
+      .results-panel { margin: 1rem 0 3rem 0; }
+      .results-title { font-weight: 700; margin-bottom: .5rem; }
+      .result-item { display:flex; justify-content:space-between; padding:.5rem .75rem; border-bottom:1px solid rgba(255,255,255,.08); }
+      .result-meta { opacity:.8; font-size:.9rem; }
+      .hidden { display:none; }
+      .category-item { cursor: pointer; }
+      .category-item a { cursor: pointer; }
+      .torrent-nav-item.active { font-weight: 700; }
