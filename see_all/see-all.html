@@ -2508,7 +2508,9 @@
                     <div class="image-wrapper bg-image" style="background-image: url(${post.image});"></div>
                     <div class="post-info">
                         <div class="topic-wrapper">
-                            <a href="../topics/${post.topic.toLowerCase().replace(' ', '_')}/index.html" class="td-none topic-tag">${post.topic}</a>
+                             <a href="../browse/index.html?type=${encodeURIComponent(post.topic)}" class="td-none topic-tag">
+  ${post.topic}
+</a>
                             <span class="gray-1">${post.time}</span>
                         </div>
                         <div>
