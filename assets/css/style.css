@@ -722,3 +722,85 @@ textarea.input-control { height: unset !important;
       .category-item { cursor: pointer; }
       .category-item a { cursor: pointer; }
       .torrent-nav-item.active { font-weight: 700; }
+
+
+    /* Ensure this only targets the error content placed inside the existing form */
+        .contact-form.sm-box .container {
+            position: relative;
+            transform: none !important;
+            top: auto !important;
+            left: auto !important;
+            margin: 3rem auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2.5rem 1rem;
+            text-align: center;
+            width: 100%;
+            background: transparent;
+            box-shadow: none;
+        }
+
+        .contact-form.sm-box .gif {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contact-form.sm-box .gif img {
+            width: 220px;
+            max-width: 90%;
+            height: auto;
+            display: block;
+        }
+
+        .contact-form.sm-box .content {
+            text-align: center;
+            margin-top: 1.25rem;
+            max-width: 680px;
+        }
+
+        .contact-form.sm-box .main-heading {
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 0.25rem 0 0.5rem;
+            color: #111;
+            line-height: 1.05;
+        }
+
+        .contact-form.sm-box p {
+            font-size: 1.1rem;
+            padding: 0.7rem 0;
+            color: #333;
+            margin-bottom: 1.25rem;
+        }
+
+        .contact-form.sm-box a button,
+        .contact-form.sm-box .btn,
+        .contact-form.sm-box button {
+            padding: 0.8rem 1.3rem;
+            border-radius: 12px;
+            outline: none;
+            border: none;
+            background: #DE464A;
+            color: #fff;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .contact-form.sm-box a {
+            text-decoration: none;
+        }
+
+        @media (min-width: 768px) {
+            .contact-form.sm-box .main-heading {
+                font-size: 2.5rem;
+            }
+
+            .contact-form.sm-box .gif img {
+                width: 260px;
+            }
+        }
+    
