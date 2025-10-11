@@ -17,7 +17,7 @@
       "category": "Technology",
       "genre": "AI & Environment",
       "year": "2024",
-      "url": "singlepost2.html?id=ai-water-cooling"
+      "url": "../singlepost2.html?id=ai-water-cooling"
     },
 {
       "title": "Satoshi Nakamoto: The Ghost Behind Bitcoin",
@@ -25,7 +25,7 @@
       "category": "Technology",
       "genre": "Cryptocurrency",
       "year": "2023",
-      "url": "singlepost2.html?id=satoshi-nakamoto"
+      "url": "../singlepost2.html?id=satoshi-nakamoto"
     },
 {
       "title": "Social Engineering: The Human Hack",
@@ -33,7 +33,7 @@
       "category": "Security",
       "genre": "Technology, Awareness",
       "year": "2025",
-      "url": "singlepost2.html?id=social-engineering-article",
+      "url": "../singlepost2.html?id=social-engineering-article",
       "rating": "N/A"
     },
 {
